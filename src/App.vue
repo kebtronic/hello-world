@@ -6,13 +6,13 @@ const menuOpen = ref(false)
 const lastUpdated = __LAST_UPDATED__
 
 const heroPhotos = [
-  '/src/assets/hero-fuwg-aa-01.jpg',
-  '/src/assets/hero-fupe-01.jpg',
-  '/src/assets/hero-fuwg-ra-01.jpg',
-  '/src/assets/hero-fuwg-jra-01.jpg',
-  '/src/assets/hero-fuwg-aa-02.jpg',
-  '/src/assets/hero-fuwg-ra-02.jpg',
-  '/src/assets/hero-fuwg-aa-03.jpg',
+  '/img/hero-fuwg-aa-01.jpg',
+  '/img/hero-fupe-01.jpg',
+  '/img/hero-fuwg-ra-01.jpg',
+  '/img/hero-fuwg-jra-01.jpg',
+  '/img/hero-fuwg-aa-02.jpg',
+  '/img/hero-fuwg-ra-02.jpg',
+  '/img/hero-fuwg-aa-03.jpg',
 ]
 const partnerLogos = [
   { src: '/src/assets/fhs-boosters.svg', alt: 'Farmington High School Music Boosters', url: 'https://www.fhsmusic.org/' },
