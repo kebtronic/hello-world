@@ -484,6 +484,14 @@ onUnmounted(() => {
       <p class="about-support">
         FUWE is financially supported and operated under Farmington Music Patrons, a 501(c)(3), with assistance from the North Farmington Music Patrons. It is a proud result of cross-district collaboration among Farmington Public Schools in support of all performing arts programs.
       </p>
+      <a
+        class="primary-button"
+        href="https://www.fhsmusic.org/who-we-are/donations"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Donate to FUWE <span aria-hidden="true">→</span>
+      </a>
       <div class="partner-logos">
         <a
           v-for="partner in partnerLogos"

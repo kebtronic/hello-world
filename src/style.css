@@ -138,6 +138,7 @@ main { overflow: visible; }
 .about-layout h2 { color: var(--tertiary-orange); }
 .about-layout p { max-width: 520px; margin: 0 0 4px; color: var(--muted); font-size: 20px; line-height: 1.7; }
 .about-support { max-width: 900px; margin: 36px 0 0; border-top: 1px solid rgba(255,255,255,.18); padding-top: 22px; color: var(--muted); font-size: 15px; line-height: 1.7; }
+.about-section > .primary-button { margin-top: 24px; }
 
 .partner-logos { max-width: 640px; margin-top: 40px; display: flex; align-items: center; gap: clamp(28px, 6vw, 72px); }
 .partner-logo { flex: 0 1 110px; display: grid; place-items: center; }
