@@ -100,7 +100,7 @@ const ensembles = [
     id: 'farmington-united-winter-guard-aa',
     tag: 'As The Show Falls',
     description: 'Our Independent AA winter guard auditioned ensemble that competes both in WGI and MCGC.',
-    image: '/src/assets/section-thumb-fuwg-aa.jpg',
+    image: '/img/section-thumb-fuwg-aa.jpg',
     imageAlt: 'Performers moving together in a colorful stage production',
     history: 'The Farmington United Winter Guard dates back to the 2007-2008 competition season. Our AA Winter Guard brings together dedicated performers through technical confidence, creativity, and visual storytelling. Through strong team culture, collaboration, and a passion for the activity, this audition-based ensemble creates engaging performances that highlight expressive movement and original design.',
     videoId: 'RDjABkFP9CQ',
@@ -179,7 +179,7 @@ const ensembles = [
     id: 'farmington-united-winter-guard-ra',
     tag: 'On the Poolside',
     description: 'Our Independent Regional A winter guard that welcomes all high school students that want to experience the passion of performing.',
-    image: '/src/assets/section-thumb-fuwg-ra.jpg',
+    image: '/img/section-thumb-fuwg-ra.jpg',
     imageAlt: 'Dance ensemble performing with expressive movement',
     history: 'Revived in 2023 after a three year hiatus, our RA is the founding and core ensemble of FUWG.  This program gives performers a competitive setting to expand their movement, equipment, and performance skills. Its history is defined by steady growth, supportive mentorship, and the next-generation leadership within the program.',
     videoUrl: 'https://www.facebook.com/share/r/1RzRAjcXGS/',
@@ -192,7 +192,7 @@ const ensembles = [
     id: 'farmington-united-winter-guard-jra',
     tag: 'From Seed to Self',
     description: 'A welcoming ensemble for 5th–8th grade performers to build their skills, grow in confidence, and discover the joy of performing together.',
-    image: '/src/assets/section-thumb-fuwg-jra.jpg',
+    image: '/img/section-thumb-fuwg-jra.jpg',
     imageAlt: 'Young performers rehearsing together outdoors',
     history: 'Our newest ensemble, FUWG-JRA is open to 5th-8th grade students as an entry point for younger and newer performers to discover the winter guard activity. It emphasizes fundamental skills, teamwork, and confidence in a welcoming competitive environment.',
     videoPlaceholder: true,
@@ -203,20 +203,20 @@ const ensembles = [
  
 
 const staff = [
-  { name: 'Chloe Tooson', role: 'FUWG Director', image: '/src/assets/staff-chloe.jpg', bio: 'Chloe leads the Winter Guard programs with a great attitude and dedication to excellence. With 15+ years of experience in the activity, she brings a wealth of knowledge and passion to every rehearsal and performance.', experience: ['NPAS ’25/26','W3G Director ’17-’23', 'FUWG Director ’21-Present'] },
-  { name: 'Kaitlyn Dobberteen', role: 'FUWG Staff', image: '/src/assets/staff-kaitlyn.jpg', bio: 'Kaitlyn is a dedicated member of the FUWG staff, contributing to the development and performance of the winter guard ensembles.', experience: ['EMI ’24', 'RAI ’23', 'FHS ’21', 'CGC ’22', 'NVA ’25'] },
-  { name: 'Brittany Buckner', role: 'FUWG Staff', image: '/src/assets/staff-brittany.jpg', bio: 'Brittany is an integral member of the FUWG staff, she helps run rehearsals, create choreography, and brings a positive attitude to the team.', experience: ['MCP ’23', 'EMU ’24', 'RHY ’22'] },
-  { name: 'Mya Tooson', role: 'FUWG Assistant Director', image: '/src/assets/staff-mya.jpg', bio: 'Mya is a very important member of the FUWG staff, she works closely with the members and pushes them as performers and people. She is also soon to be married to her fiancé.', experience: ['CGC ’24', 'FHS ’25', 'NVA ’22', 'RAI ’23', 'UNI ’21'] },
-  { name: 'Madeline Fenech', role: 'FUWG Staff', image: '/src/assets/staff-maddie.jpg', bio: 'Madeline is a dedicated member of the FUWG staff, contributing to the development and performance of the winter guard ensembles.', experience: ['FHS ’24', 'CGC ’23', 'NVA ’22'] },
-  { name: 'Connor Lindenmuth', role: 'FUWG Staff', image: '/src/assets/staff-connor.jpg', bio: 'Connor is a dedicated member of the FUWG staff, contributing to the development and performance of the winter guard ensembles.', experience: ['NPAS ’26'] },
-  { name: 'Gracie Barber', role: 'FUWG Staff', image: '/src/assets/staff-silhouette-woman.svg', imageAlt: 'Generic woman silhouette illustration' },
-  { name: 'Sarah Bedolla', role: 'FUWG Staff and Admin Support', image: '/src/assets/staff-sarah.jpg', imageAlt: 'Sarah FUPE Staff' },
-  { name: 'Mason Keberly', role: 'FUPE Assistant Director', image: '/src/assets/staff-keberly.jpg', bio: 'Mason is one of FUPE\'s new assistant directors. With six years of battery percussion experience, Mason brings his competitive and collegiate percussion background to the FUPE staff.', experience: ['EMU ’25', 'MCP ’24', 'FHS ’23', 'NEX ’22', 'ARC ’21'] },
-  { name: 'Aaron McKay', role: 'FUPE Director', image: '/src/assets/staff-mr-mckay.jpg', bio: 'Aaron is the new director of FUPE. He brings 10+ years of percussive experience in both front ensemble and battery percussion. Along with the director of FUWG, Chloe, Aaron is excited to lead the program to new horizons.', experience: ['LEP ’22/23', 'MCP ’24', 'MTXO ’25', 'EMU ’23'] },
-  { name: 'Jake Brown', role: 'FUPE Assistant', image: '/src/assets/staff-jake.jpg', bio: 'Jake is our other assistant director of FUPE. He brings 12+ years of front ensemble experience to the group. Fun fact, Jake is an alum of the program, marching with FUPE from 2014-2019 and helping the group earn one of two second place medals.', experience: ['NVA ’25', 'EMU ’23', 'MCP ’22', 'UNI ’21'] },
-  { name: 'Mason Martin', role: 'FUPE Front Ensemble Technician', image: '/src/assets/staff-martin.jpg', bio: 'Mason is a dedicated member of the FUPE staff, contributing to the development and performance of the percussion ensembles.', experience: ['FHS ’24', 'ARC ’23', 'MCP ’21', 'RHY ’22', 'CGC ’25'] },
-  { name: 'Jaydenn Rush', role: 'FUPE Cymbal Technician', image: '/src/assets/staff-rush.jpg', bio: 'Jaden is a dedicated member of the FUPE staff, contributing to the development and performance of the percussion ensembles.', experience: ['NEX ’25', 'EMU ’24', 'RAI ’22', 'WVE ’23', 'UNI ’21'] },
-  { name: 'Ryan Keberly', role: 'FUWE Media Intern', image: '/src/assets/staff-ryan.jpg', bio: 'Ryan captures and shares the story of the program through his expert photography and media skills, highlighting the performers, rehearsals, and performances.', experience: ['WSU FPCA'] },
+  { name: 'Chloe Tooson', role: 'FUWG Director', image: '/img/staff-chloe.jpg', bio: 'Chloe leads the Winter Guard programs with a great attitude and dedication to excellence. With 15+ years of experience in the activity, she brings a wealth of knowledge and passion to every rehearsal and performance.', experience: ['NPAS ’25/26','W3G Director ’17-’23', 'FUWG Director ’21-Present'] },
+  { name: 'Kaitlyn Dobberteen', role: 'FUWG Staff', image: '/img/staff-kaitlyn.jpg', bio: 'Kaitlyn is a dedicated member of the FUWG staff, contributing to the development and performance of the winter guard ensembles.', experience: ['EMI ’24', 'RAI ’23', 'FHS ’21', 'CGC ’22', 'NVA ’25'] },
+  { name: 'Brittany Buckner', role: 'FUWG Staff', image: '/img/staff-brittany.jpg', bio: 'Brittany is an integral member of the FUWG staff, she helps run rehearsals, create choreography, and brings a positive attitude to the team.', experience: ['MCP ’23', 'EMU ’24', 'RHY ’22'] },
+  { name: 'Mya Tooson', role: 'FUWG Assistant Director', image: '/img/staff-mya.jpg', bio: 'Mya is a very important member of the FUWG staff, she works closely with the members and pushes them as performers and people. She is also soon to be married to her fiancé.', experience: ['CGC ’24', 'FHS ’25', 'NVA ’22', 'RAI ’23', 'UNI ’21'] },
+  { name: 'Madeline Fenech', role: 'FUWG Staff', image: '/img/staff-maddie.jpg', bio: 'Madeline is a dedicated member of the FUWG staff, contributing to the development and performance of the winter guard ensembles.', experience: ['FHS ’24', 'CGC ’23', 'NVA ’22'] },
+  { name: 'Connor Lindenmuth', role: 'FUWG Staff', image: '/img/staff-connor.jpg', bio: 'Connor is a dedicated member of the FUWG staff, contributing to the development and performance of the winter guard ensembles.', experience: ['NPAS ’26'] },
+  { name: 'Gracie Barber', role: 'FUWG Staff', image: '/img/staff-silhouette-woman.svg', imageAlt: 'Generic woman silhouette illustration' },
+  { name: 'Sarah Bedolla', role: 'FUWG Staff and Admin Support', image: '/img/staff-sarah.jpg', imageAlt: 'Sarah FUPE Staff' },
+  { name: 'Mason Keberly', role: 'FUPE Assistant Director', image: '/img/staff-keberly.jpg', bio: 'Mason is one of FUPE\'s new assistant directors. With six years of battery percussion experience, Mason brings his competitive and collegiate percussion background to the FUPE staff.', experience: ['EMU ’25', 'MCP ’24', 'FHS ’23', 'NEX ’22', 'ARC ’21'] },
+  { name: 'Aaron McKay', role: 'FUPE Director', image: '/img/staff-mr-mckay.jpg', bio: 'Aaron is the new director of FUPE. He brings 10+ years of percussive experience in both front ensemble and battery percussion. Along with the director of FUWG, Chloe, Aaron is excited to lead the program to new horizons.', experience: ['LEP ’22/23', 'MCP ’24', 'MTXO ’25', 'EMU ’23'] },
+  { name: 'Jake Brown', role: 'FUPE Assistant', image: '/img/staff-jake.jpg', bio: 'Jake is our other assistant director of FUPE. He brings 12+ years of front ensemble experience to the group. Fun fact, Jake is an alum of the program, marching with FUPE from 2014-2019 and helping the group earn one of two second place medals.', experience: ['NVA ’25', 'EMU ’23', 'MCP ’22', 'UNI ’21'] },
+  { name: 'Mason Martin', role: 'FUPE Front Ensemble Technician', image: '/img/staff-martin.jpg', bio: 'Mason is a dedicated member of the FUPE staff, contributing to the development and performance of the percussion ensembles.', experience: ['FHS ’24', 'ARC ’23', 'MCP ’21', 'RHY ’22', 'CGC ’25'] },
+  { name: 'Jaydenn Rush', role: 'FUPE Cymbal Technician', image: '/img/staff-rush.jpg', bio: 'Jaden is a dedicated member of the FUPE staff, contributing to the development and performance of the percussion ensembles.', experience: ['NEX ’25', 'EMU ’24', 'RAI ’22', 'WVE ’23', 'UNI ’21'] },
+  { name: 'Ryan Keberly', role: 'FUWE Media Intern', image: '/img/staff-ryan.jpg', bio: 'Ryan captures and shares the story of the program through his expert photography and media skills, highlighting the performers, rehearsals, and performances.', experience: ['WSU FPCA'] },
 ]
 
 const experienceTooltips = {
@@ -273,7 +273,7 @@ onUnmounted(() => {
   <main>
     <nav class="nav" aria-label="Main navigation">
       <button class="brand" type="button" @click="scrollTo('#top')" aria-label="Farmington United home">
-        <img src="/src/assets/fuwe-logo.svg" alt="farmington united winter ensembles" />
+        <img src="/img/fuwe-logo.svg" alt="farmington united winter ensembles" />
       </button>
       <button
         class="menu-toggle"
@@ -289,7 +289,7 @@ onUnmounted(() => {
         <button :class="{ active: activeSection === 'ensembles' }" type="button" @click="scrollTo('#ensembles')">Ensembles</button>
         <button :class="{ active: activeSection === 'staff' }" type="button" @click="scrollTo('#staff')">Staff</button>
         <button :class="{ active: activeSection === 'about' }" type="button" @click="scrollTo('#about')">About</button>
-        <button class="nav-contact" :class="{ active: activeSection === 'contact' }" type="button" @click="scrollTo('#contact')">Join the team</button>
+        <button class="nav-contact" :class="{ active: activeSection === 'contact' }" type="button" @click="scrollTo('#contact')">Get Involved</button>
       </div>
     </nav>
 
@@ -500,13 +500,56 @@ onUnmounted(() => {
     </section>
 
     <section id="contact" class="contact-section">
-      <div>
+      <header class="contact-heading">
         <p class="eyebrow"><span></span> Get Involved</p>
         <h2>Ready to take<br />the floor?</h2>
+      </header>
+      <div class="contact-groups">
+        <div class="contact-group">
+          <h3>FUPE</h3>
+          <div class="contact-actions">
+            <a
+              class="contact-link"
+              href="https://drive.google.com/file/d/1-P55CMdr19l2VmCxhCztWwVcvHEi1rt3/view?usp=share_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M6.5 3.5h-3v9h9v-3M8 3.5h4.5V8M12.5 3.5 7 9" />
+              </svg>
+              Front Ensemble Audition Packet
+            </a>
+            <a
+              class="contact-link"
+              href="https://drive.google.com/file/d/1-6hGMgPDK9UvqPTXb-c4fccm9xwRgTGG/view?usp=share_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M6.5 3.5h-3v9h9v-3M8 3.5h4.5V8M12.5 3.5 7 9" />
+              </svg>
+              Battery Audition Packet
+            </a>
+            <a class="contact-link" href="mailto:farmingtonunitedperc@gmail.com">
+              <svg viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M2.5 4h11v8h-11zM3 4.5l5 4 5-4" />
+              </svg>
+              farmingtonunitedperc@gmail.com
+            </a>
+          </div>
+        </div>
+        <div class="contact-group">
+          <h3>Winter Guard Groups</h3>
+          <div class="contact-actions">
+            <a class="contact-link" href="mailto:farmingtonunitedwg@gmail.com">
+              <svg viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M2.5 4h11v8h-11zM3 4.5l5 4 5-4" />
+              </svg>
+              farmingtonunitedwg@gmail.com
+            </a>
+          </div>
+        </div>
       </div>
-      <a class="primary-button" href="mailto:info@farmingtonunited.org">
-        Join Farmington United <span aria-hidden="true">→</span>
-      </a>
     </section>
 
     <footer>
