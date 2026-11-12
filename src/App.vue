@@ -506,7 +506,7 @@ onUnmounted(() => {
       </header>
       <div class="contact-groups">
         <div class="contact-group">
-          <h3>FUPE</h3>
+          <h3>Farmington United Percussion Ensemble</h3>
           <div class="contact-actions">
             <a
               class="contact-link"
@@ -539,7 +539,7 @@ onUnmounted(() => {
           </div>
         </div>
         <div class="contact-group">
-          <h3>Winter Guard Groups</h3>
+          <h3>Winter Guard Group Information</h3>
           <div class="contact-actions">
             <a class="contact-link" href="mailto:farmingtonunitedwg@gmail.com">
               <svg viewBox="0 0 16 16" aria-hidden="true">
