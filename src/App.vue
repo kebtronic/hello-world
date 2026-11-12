@@ -15,9 +15,9 @@ const heroPhotos = [
   '/img/hero-fuwg-aa-03.jpg',
 ]
 const partnerLogos = [
-  { src: '/src/assets/fhs-boosters.svg', alt: 'Farmington High School Music Boosters', url: 'https://www.fhsmusic.org/' },
-  { src: '/src/assets/nfhs-boosters.svg', alt: 'North Farmington High School Music Boosters', url: 'https://www.nfhsmusic.org' },
-  { src: '/src/assets/mapa-logo.svg', alt: 'Michigan Alliance for Performing Arts', url: 'https://www.performmapa.org' },
+  { src: '/img/fhs-boosters.svg', alt: 'Farmington High School Music Boosters', url: 'https://www.fhsmusic.org/' },
+  { src: '/img/nfhs-boosters.svg', alt: 'North Farmington High School Music Boosters', url: 'https://www.nfhsmusic.org' },
+  { src: '/img/mapa-logo.svg', alt: 'Michigan Alliance for Performing Arts', url: 'https://www.performmapa.org' },
 ]
 const heroGalleryCycleDuration = 24_000
 const activeHeroPhoto = ref(0)
@@ -30,7 +30,7 @@ const ensembles = [
     id: 'farmington-united-percussion',
     tag: 'Shades of Life',
     description: 'Our competitive percussion ensemble combining both mallet and battery percussion to create dynamic performances.',
-    image: '/src/assets/section-thumb-fupe.jpg',
+    image: '/img/section-thumb-fupe.jpg',
     imageAlt: 'Musician performing on stage with focused lighting',
     history: 'Farmington United Percussion has built a tradition of ambitious indoor percussion through committed musicianship, visual storytelling, and ensemble collaboration. Program alumni continue to carry that spirit into the activity as performers, educators, and staff.',
     videoId: 'jvTzm_kL7Ec',
